@@ -1,0 +1,22 @@
+GET http://localhost:5000
+
+
+### Check Server Status
+GET http://localhost:5000/api
+
+
+### Register User
+POST http://localhost:5000/api/user/register
+Content-Type: application/json
+
+{
+    "username": "ejekanshjain",
+    "name": "Ekansh Jain",
+    "gender": "male",
+    "dateOfBirth": "1999-04-20",
+    "email": "ejekanshjain@gmail.com",
+    "password": "password"
+}
+
+
+###

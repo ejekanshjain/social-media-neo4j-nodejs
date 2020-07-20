@@ -3,6 +3,8 @@ const express = require('express')
 const helmet = require('helmet')
 const cors = require('cors')
 
+require('./db')
+
 const port = process.env.PORT
 
 const app = express()
