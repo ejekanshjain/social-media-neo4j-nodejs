@@ -19,4 +19,14 @@ Content-Type: application/json
 }
 
 
+### Login User
+POST http://localhost:5000/api/user/login
+Content-Type: application/json
+
+{
+    "username": "ejekanshjain",
+    "password": "password"
+}
+
+
 ###

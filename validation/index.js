@@ -1,3 +1,4 @@
 module.exports = {
-    RegisterUserSchema: require('./RegisterUserSchema')
+    RegisterUserSchema: require('./RegisterUserSchema'),
+    LoginUserSchema: require('./LoginUserSchema')
 }
